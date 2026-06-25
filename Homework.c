@@ -1,3 +1,73 @@
+// HOMEWORK 25 --> Set 9 
+// Make a system that can store information of all students, teachers and staff of your college in the form of all structures.
+// You can also make this into a C project with other functionalities like cgpa, calculation of students, storing attendence etc.
+
+// #include <stdio.h>
+
+// struct student {
+//     char name[50];
+//     int roll_number;
+//     float sem1_gpa;
+//     float sem2_gpa;
+//     int total_classes;
+//     int attended_classes;
+// };
+
+// struct teacher {
+//     char name[50];
+//     char subject[50];
+// };
+
+// struct staff {
+//     char name[50];
+//     char role[50];
+// };
+
+// int main() {
+//     struct teacher t;
+//     struct staff st;
+
+//     struct student s = {"Saanvi", 56, 9.5, 9.3, 100, 84};
+//     float final_cgpa = (s.sem1_gpa + s.sem2_gpa) / 2.0;
+
+//     float attendance_percentage = ((float)s.attended_classes / s.total_classes) * 100;
+
+//     printf("STUDENT REPORT: \n");
+//     printf("Name: %s\n", s.name);
+//     printf("Final CGPA: %.2f\n", final_cgpa);
+//     printf("Attendance: %.1f%%\n", attendance_percentage);
+
+//     if (attendance_percentage >= 75.0) {
+//         printf("Exam Status: Eligible\n");
+//     } else {
+//         printf("Exam Status: Detained (Attendance below 75%%)\n");
+//     }
+
+//     printf("\n--- ENTER TEACHER DETAILS ---\n");
+//     printf("Name (No spaces): ");
+//     scanf("%s", t.name);
+//     printf("Subject: ");
+//     scanf("%s", t.subject);
+
+
+//     printf("\n--- ENTER STAFF DETAILS ---\n");
+//     printf("Name (No spaces): ");
+//     scanf("%s", st.name);
+//     printf("Role: ");
+//     scanf("%s", st.role);
+
+//     printf("COLLEGE RECORDS: \n");
+//     printf("Student: %s | Roll No: %d | Final CGPA: %.2f | Attendance: %.1f%%\n", s.name, s.roll_number, final_cgpa, attendance_percentage);
+//     printf("Teacher: %s | Subject: %s\n", t.name, t.subject);
+//     printf("Staff:   %s | Role: %s\n", st.name, st.role);
+
+//     return 0;
+// }
+
+// x-------------------------------------------------------x
+// CHAPTER 9 : STRUCTURES
+// x-------------------------------------------------------x
+
 // HOMEWORK 24 --> Set 8 : d
 // Write a program to replace lowercase letters with uppercase and vice versa in a string
 
