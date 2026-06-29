@@ -1,3 +1,31 @@
+// HOMEWORK 26 --> Set 10
+// Write a program to read a string from a file and output to the user.
+
+// #include<stdio.h>
+
+// int main() {
+//     FILE *fptr;
+//     fptr = fopen("Test.txt", "r");
+
+//     if(fptr == NULL) {
+//         printf("Error: Could not open file Test.txt\n");
+//     }
+
+//     char str[100];
+
+//     if (fgets(str, sizeof(str), fptr) != NULL) {
+//         printf("Content from file: %s", str);
+//     } else {
+//         printf("The file is empty or could not be read.\n");
+//     }
+
+//     fclose(fptr);
+//     return 0;
+// }
+
+// x-------------------------------------------------------x
+// CHAPTER 10 : File I/O
+// x-------------------------------------------------------x
 // HOMEWORK 25 --> Set 9 
 // Make a system that can store information of all students, teachers and staff of your college in the form of all structures.
 // You can also make this into a C project with other functionalities like cgpa, calculation of students, storing attendence etc.
