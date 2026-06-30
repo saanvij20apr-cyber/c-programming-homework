@@ -1,3 +1,7 @@
+// x-------------------------------------------------------x
+// CHAPTER 11 : DYNAMIC MEMORY ALLOCATION
+// x-------------------------------------------------------x
+
 // HOMEWORK 28 --> Set 10 : c
 // Format the information of 5 students (name, marks, cgpa, course) in a table like structure in a file.
 
