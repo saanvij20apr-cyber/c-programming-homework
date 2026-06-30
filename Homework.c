@@ -1,4 +1,51 @@
-// HOMEWORK 26 --> Set 10
+// HOMEWORK 28 --> Set 10 : c
+// Format the information of 5 students (name, marks, cgpa, course) in a table like structure in a file.
+
+
+
+// x-------------------------------------------------------x
+
+// HOMEWORK 27 --> Set 10 : b
+// Replace the data in file of the previous question with the number of vowels in the string.
+
+// #include <stdio.h>
+
+// int main() {
+//     FILE *fptr;
+//     char str[100];
+//     int count = 0;
+
+//     fptr = fopen("Test.txt", "r");
+//     if (fptr == NULL) {
+//         printf("Error: Could not open Test.txt for reading.\n");
+//         return 1;
+//     }
+
+//     fgets(str, 100, fptr);
+//     fclose(fptr); 
+    
+//     for (int i = 0; str[i] != '\0'; i++) {
+//         if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u' ||
+//             str[i] == 'A' || str[i] == 'E' || str[i] == 'I' || str[i] == 'O' || str[i] == 'U') {
+//             count++;
+//         }
+//     }
+
+//     fptr = fopen("Test.txt", "w");
+//     if (fptr == NULL) {
+//         printf("Error: Could not open Test.txt for writing.\n");
+//         return 1;
+//     }
+
+//     fprintf(fptr, "%d", count);
+//     fclose(fptr);
+
+//     return 0;
+// }
+
+// x-------------------------------------------------------x
+
+// HOMEWORK 26 --> Set 10 : a
 // Write a program to read a string from a file and output to the user.
 
 // #include<stdio.h>
@@ -26,6 +73,7 @@
 // x-------------------------------------------------------x
 // CHAPTER 10 : File I/O
 // x-------------------------------------------------------x
+
 // HOMEWORK 25 --> Set 9 
 // Make a system that can store information of all students, teachers and staff of your college in the form of all structures.
 // You can also make this into a C project with other functionalities like cgpa, calculation of students, storing attendence etc.
