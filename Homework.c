@@ -1,7 +1,26 @@
 // HOMEWORK 28 --> Set 10 : c
 // Format the information of 5 students (name, marks, cgpa, course) in a table like structure in a file.
 
+// #include <stdio.h>
 
+// int main() {
+//     FILE *fptr = fopen("Test.txt", "w");
+//     if (fptr == NULL) return 1;
+
+//     fprintf(fptr, "%-16s %-7s %-6s %-20s\n", "Name", "Marks", "CGPA", "Course");
+//     fprintf(fptr, "---------------------------------------------------------\n");
+
+//     fprintf(fptr, "%-16s %-7d %-6.1f %-20s\n", "Franck Ocean", 88, 8.9, "Computer Science");
+//     fprintf(fptr, "%-16s %-7d %-6.1f %-20s\n", "Kanye West", 94, 9.5, "Data Science");
+//     fprintf(fptr, "%-16s %-7d %-6.1f %-20s\n", "Kendall Jenner", 76, 7.8, "Mechanical Eng.");
+//     fprintf(fptr, "%-16s %-7d %-6.1f %-20s\n", "Brad Pitt", 85, 8.6, "Electronics Eng.");
+//     fprintf(fptr, "%-16s %-7d %-6.1f %-20s\n", "Santan Dave", 91, 9.2, "Information Tech.");
+
+//     fclose(fptr);
+
+//     printf("Success! The table has been saved inside Test.txt.\n");
+//     return 0;
+// }
 
 // x-------------------------------------------------------x
 
