@@ -1,3 +1,13 @@
+
+// x-------------------------------------------------------x
+
+// HOMEWORK 29 --> Set 11 : a
+// Search about what is a "dangling pointer" in C.
+
+// --> A dangling pointer in C programming is a pointer that points to a memory location that has been deallocated, freed, or gone out of scope. 
+// --> The pointer variable still stores the address of that memory block, but the program no longer has the authorization to access or modify it. 
+// --> Dereferencing a dangling pointer triggers undefined behavior, which can manifest as random garbage data, data corruption, or immediate program crashes (segmentation faults).
+
 // x-------------------------------------------------------x
 // CHAPTER 11 : DYNAMIC MEMORY ALLOCATION
 // x-------------------------------------------------------x
