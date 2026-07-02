@@ -1,7 +1,7 @@
 // x-------------------------------------------------------x
 
 // HOMEWORK 32 --> Set 11 : d
-// Search & find out which is better malloc( ) or calloc ( ).
+// Search & find out which is better malloc( ) or calloc( ).
 
 // --> MALLOC:
 //          Allocates a raw block of memory.
