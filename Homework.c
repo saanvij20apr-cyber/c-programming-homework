@@ -1,3 +1,28 @@
+// HOMEWORK 30 --> Set 11 : b
+// Allocate memomry for 500 integers using calloc and then store first 500 natural numbers in that space.
+
+// #include<stdio.h>
+// #include<stdlib.h>
+
+// int main() {
+//     int *ptr;
+//     ptr = (int*) calloc(500, sizeof(int));
+
+//     if(ptr == NULL) {
+//         printf("Memory allocation failed!\n");
+//     }
+
+//     for(int i = 0; i < 500; i++) {
+//         ptr[i] = i + 1;
+//     }
+
+//     printf("First number: %d\n", ptr[0]);
+//     printf("Last number: %d\n", ptr[499]);
+
+//     free(ptr);
+
+//     return 0;
+// }
 
 // x-------------------------------------------------------x
 
