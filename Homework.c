@@ -1,3 +1,35 @@
+// x-------------------------------------------------------x
+
+// HOMEWORK 32 --> Set 11 : d
+// Search & find out which is better malloc( ) or calloc ( ).
+
+// --> MALLOC:
+//          Allocates a raw block of memory.
+//          Leaves memory uninitialized (contains garbage values).
+//          Marginally faster because it does not clear memory.
+//          Takes one argument: total bytes needed.
+//          Use malloc if you plan to immediately overwrite the memory (e.g., in a loop).
+
+// --> CALLOC:
+//          Allocates memory and initializes all bytes to zero.
+//          Marginally slower due to the clearing step.
+//          Prevents bugs caused by uninitialized data.
+//          Takes two arguments: number of elements and size of each.
+//          Use calloc if you need the allocated memory to start at zero for safety.
+
+// x-------------------------------------------------------x
+
+// HOMEWORK 31 --> Set 11 : c
+// Search about what is "memory leak" in C.
+
+// --> A memory leak occurs when a program allocates memory on the heap dynamically using functions like malloc(), calloc(), or realloc(), but fails to release it back to the system using the free() function once it is no longer needed.
+// --> Consequences:
+//          GRADUAL PERFORMANCE DROP: The OS spends extra time swapping date to virtual memory disk space.
+//          SOFTWARE INSTABILITY: The program may crash unexpectedly once the system runs entirely out of heap memory.
+//          SEVERE LONG-TERM EXPOSURE: : Small leaks continuously pile up in long-running processes like network servers, inevitably killing the host application over time.
+
+// x-------------------------------------------------------x
+
 // HOMEWORK 30 --> Set 11 : b
 // Allocate memomry for 500 integers using calloc and then store first 500 natural numbers in that space.
 
